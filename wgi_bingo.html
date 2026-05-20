@@ -32,8 +32,9 @@
     gap:16px;
     box-shadow:0 2px 10px rgba(0,0,0,0.15);
   }
-  .logo{display:flex;align-items:center;gap:12px;}
+  .logo{display:flex;align-items:center;gap:14px;}
   .logo svg{display:block;height:46px;width:auto;}
+  .logo-mark{height:48px;width:auto;display:block;background:#fff;border-radius:8px;padding:6px 10px;box-shadow:0 2px 6px rgba(0,0,0,0.15);}
   .logo-text{display:flex;flex-direction:column;line-height:1;}
   .logo-text .title{font-size:1.5rem;font-weight:800;letter-spacing:0.5px;}
   .logo-text .sub{font-size:0.72rem;opacity:0.85;letter-spacing:2px;text-transform:uppercase;margin-top:4px;}
@@ -166,7 +167,11 @@
 <body>
 <header>
   <div class="logo">
-    <svg viewBox="0 0 120 120" aria-label="WGI logo">
+    <img class="logo-mark"
+         src="https://publications.wginc.com/hubfs/Dan%20Working/WGI%20Logo_Green%20(2).png"
+         alt="WGI logo"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+    <svg viewBox="0 0 120 120" aria-label="WGI logo" style="display:none;">
       <circle cx="60" cy="60" r="54" fill="none" stroke="#ffffff" stroke-width="9"/>
       <path d="M30 38 L40 38 L46 74 L52 38 L62 38 L68 74 L74 38 L84 38 L74 86 L62 86 L57 54 L52 86 L40 86 Z" fill="#ffffff"/>
     </svg>
