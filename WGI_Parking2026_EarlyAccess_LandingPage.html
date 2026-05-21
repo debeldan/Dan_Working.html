@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Early Access — Parking Structure Cost Outlook 2026 | WGI</title>
+<meta name="description" content="Costs climbed again in 2026. Reserve your copy of WGI's Parking Structure Cost Outlook and the new index lands in your inbox the moment it releases on June 11 — before the public announcement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --indigo:#444276;
+    --indigo-deep:#373560;
+    --plum:#4e2941;
+    --plum-deep:#3c1f32;
+    --white:#ffffff;
+    --gray:#cccccc;
+    --paper:#f4f3f7;
+    --paper-2:#ecebf2;
+    --ink:#23222e;
+    --muted:#6b6979;
+    --line:#dad8e4;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:'Archivo',Helvetica,Arial,sans-serif;
+    font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:500;color:var(--indigo);margin:0;line-height:1.1;}
+  a{color:var(--indigo);}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px;}
+
+  /* ---- top bar ---- */
+  .topbar{border-bottom:1px solid var(--line);background:rgba(244,243,247,0.85);backdrop-filter:saturate(140%) blur(6px);position:sticky;top:0;z-index:10;}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;}
+  .brand{font-weight:700;letter-spacing:4px;color:var(--indigo);font-size:20px;}
+  .brand small{display:block;font-weight:500;letter-spacing:2px;font-size:9px;color:var(--muted);margin-top:2px;}
+  .topbar .tag{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:600;}
+
+  /* ---- hero ---- */
+  .hero{position:relative;overflow:hidden;}
+  /* blueprint deck motif */
+  .hero::before{
+    content:"";position:absolute;inset:0;z-index:0;opacity:0.55;
+    background-image:
+      linear-gradient(var(--paper-2) 1px,transparent 1px),
+      linear-gradient(90deg,var(--paper-2) 1px,transparent 1px);
+    background-size:46px 46px;
+    -webkit-mask-image:radial-gradient(circle at 70% 30%,#000 0%,transparent 70%);
+            mask-image:radial-gradient(circle at 70% 30%,#000 0%,transparent 70%);
+  }
+  .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;padding:64px 32px 76px;align-items:start;}
+
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:700;color:var(--indigo);
+    border:1px solid var(--plum);padding:7px 14px;border-radius:2px;background:rgba(78,41,65,0.07);}
+  .eyebrow b{color:var(--plum);}
+  h1.title{font-size:56px;margin:22px 0 0;letter-spacing:-0.5px;}
+  h1.title .yr{color:var(--plum);font-weight:600;font-style:italic;}
+  .deck{font-size:19px;color:#3a3947;max-width:30em;margin:20px 0 0;}
+  .deck strong{color:var(--indigo);}
+
+  .inside{margin:32px 0 0;border-top:1px solid var(--line);padding-top:24px;}
+  .inside h3{font-size:13px;font-family:'Archivo',sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:14px;}
+  .inside ul{list-style:none;margin:0;padding:0;}
+  .inside li{position:relative;padding:8px 0 8px 28px;font-size:15.5px;color:#3a3947;border-bottom:1px dotted var(--gray);}
+  .inside li:last-child{border-bottom:0;}
+  .inside li::before{content:"";position:absolute;left:0;top:15px;width:9px;height:9px;background:var(--plum);transform:rotate(45deg);}
+
+  /* ---- form card ---- */
+  .card{background:var(--white);border:1px solid var(--line);border-top:4px solid var(--plum);
+    box-shadow:0 30px 60px -38px rgba(68,66,118,0.55);padding:34px 34px 30px;border-radius:3px;}
+  .card .kicker{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:var(--plum);}
+  .card h2{font-size:27px;margin:8px 0 4px;}
+  .card .sub{font-size:14px;color:var(--muted);margin:0 0 22px;}
+  .field{margin-bottom:14px;}
+  .field label{display:block;font-size:12px;font-weight:600;letter-spacing:0.3px;color:#41404a;margin-bottom:6px;}
+  .field input{
+    width:100%;padding:13px 14px;font-family:inherit;font-size:15px;color:var(--ink);
+    background:var(--paper);border:1px solid var(--gray);border-radius:2px;outline:none;transition:border-color .15s,box-shadow .15s;
+  }
+  .field input:focus{border-color:var(--indigo);box-shadow:0 0 0 3px rgba(68,66,118,0.12);background:#fff;}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .btn{
+    width:100%;margin-top:6px;cursor:pointer;border:0;border-radius:2px;
+    background:var(--indigo);color:#fff;font-family:inherit;font-size:16px;font-weight:700;letter-spacing:0.4px;
+    padding:16px 20px;border-top:3px solid var(--plum);transition:background .15s,transform .05s;
+  }
+  .btn:hover{background:var(--indigo-deep);}
+  .btn:active{transform:translateY(1px);}
+  .formnote{margin:14px 0 0;font-size:12px;line-height:1.5;color:var(--muted);text-align:center;}
+  .formnote b{color:var(--indigo);}
+  .success{display:none;text-align:center;padding:18px 6px;}
+  .success h2{font-size:24px;}
+  .success p{color:var(--muted);font-size:15px;margin:8px 0 0;}
+
+  /* ---- locked index reveal ---- */
+  .reveal-band{background:linear-gradient(135deg,var(--indigo) 0%,var(--plum) 100%);color:#e9e7f2;}
+  .reveal-band .wrap{display:grid;grid-template-columns:0.92fr 1.08fr;gap:52px;padding:72px 32px;align-items:center;}
+  .reveal-band .eyebrow{color:#fff;border-color:rgba(255,255,255,0.45);background:rgba(255,255,255,0.08);}
+  .reveal-band .eyebrow b{color:#fff;}
+  .reveal-band h2{color:#fff;font-size:34px;margin:18px 0 0;}
+  .reveal-band p{color:#cfcadd;font-size:16.5px;margin:16px 0 0;}
+  .reveal-band p.fine{font-size:13.5px;color:#b7b1ca;margin-top:14px;}
+
+  .index-card{background:var(--white);border-radius:5px;padding:8px 6px 12px;box-shadow:0 40px 80px -40px rgba(0,0,0,0.55);}
+  .index-card .ic-head{display:flex;align-items:baseline;justify-content:space-between;padding:14px 18px 10px;}
+  .index-card .ic-title{font-family:'Fraunces',serif;color:var(--indigo);font-size:15px;letter-spacing:0.5px;}
+  .index-card .ic-tag{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:var(--plum);}
+  table.index{width:100%;border-collapse:collapse;font-size:14.5px;}
+  table.index th{font-family:'Archivo',sans-serif;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:700;text-align:right;padding:8px 18px;border-bottom:1px solid var(--gray);}
+  table.index th:first-child{text-align:left;}
+  table.index td{padding:11px 18px;border-bottom:1px solid var(--line);color:#33323e;text-align:right;}
+  table.index td:first-child{text-align:left;font-weight:600;color:var(--indigo);}
+  table.index tr:last-child td{border-bottom:0;}
+  table.index tr.median td{background:rgba(68,66,118,0.05);font-weight:700;}
+  table.index tr.median td:first-child{color:var(--plum);}
+  .col25{color:#33323e;}
+  .lock{position:relative;display:inline-block;min-width:78px;text-align:right;}
+  .lock .blur{filter:blur(6px);-webkit-filter:blur(6px);user-select:none;color:#8b8898;letter-spacing:0.5px;}
+  .lock-badge{display:inline-flex;align-items:center;gap:8px;margin:14px 18px 6px;padding:9px 14px;border:1px dashed var(--plum);border-radius:3px;background:rgba(78,41,65,0.06);
+    font-family:'Archivo',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.4px;color:var(--plum);}
+  .lock-badge svg{flex:0 0 auto;}
+
+  /* ---- proof band ---- */
+  .band{background:var(--indigo-deep);color:#dcd9e8;}
+  .band .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;padding:46px 32px;}
+  .stat{border-left:2px solid var(--plum);padding-left:20px;}
+  .stat .n{font-family:'Fraunces',serif;font-size:40px;color:#fff;line-height:1;}
+  .stat .n span{color:#c9a9bd;}
+  .stat .l{font-size:13.5px;color:#b3aecb;margin-top:8px;}
+
+  /* ---- detail strip ---- */
+  .strip .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:70px 32px;align-items:center;}
+  .strip h2{font-size:36px;}
+  .strip p{color:#3a3947;font-size:16.5px;}
+  .whenbox{background:var(--paper-2);border:1px solid var(--line);border-radius:3px;padding:28px 30px;}
+  .whenbox h3{font-size:13px;font-family:'Archivo',sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:14px;}
+  .whenrow{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);}
+  .whenrow:last-child{border-bottom:0;}
+  .whenrow .d{flex:0 0 84px;font-weight:700;color:var(--indigo);font-size:14px;}
+  .whenrow .t{font-size:14.5px;color:#3a3947;}
+
+  /* ---- experts ---- */
+  .experts{background:var(--white);border-top:1px solid var(--line);}
+  .experts .wrap{padding:56px 32px;}
+  .experts h3{font-size:13px;font-family:'Archivo',sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:22px;}
+  .exgrid{display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:760px;}
+  .expert{display:flex;gap:18px;align-items:center;}
+  .expert img{width:74px;height:74px;border-radius:50%;object-fit:cover;border:2px solid var(--gray);background:var(--paper-2);}
+  .expert .nm{font-family:'Fraunces',serif;font-size:20px;color:var(--indigo);}
+  .expert .ti{font-size:13px;color:var(--muted);margin-top:2px;}
+  .expert .em{font-size:13px;margin-top:4px;}
+
+  /* ---- footer ---- */
+  footer{background:var(--plum-deep);color:#b9aec3;}
+  footer .wrap{padding:34px 32px;font-size:12.5px;}
+  footer a{color:#d9cfe0;}
+
+  /* ---- reveal anim ---- */
+  .reveal{opacity:0;transform:translateY(18px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards;}
+  .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}
+  @keyframes rise{to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none;}}
+
+  /* ---- responsive ---- */
+  @media (max-width:880px){
+    .hero .wrap{grid-template-columns:1fr;gap:36px;padding:40px 24px 56px;}
+    h1.title{font-size:44px;}
+    .order-form{order:-1;}            /* form rides high on mobile */
+    .reveal-band .wrap{grid-template-columns:1fr;gap:34px;padding:52px 24px;}
+    .band .wrap{grid-template-columns:1fr;gap:26px;padding:40px 24px;}
+    .strip .wrap{grid-template-columns:1fr;gap:32px;padding:48px 24px;}
+    .exgrid{grid-template-columns:1fr;gap:24px;}
+    .wrap{padding:0 24px;}
+  }
+  @media (max-width:480px){ .row2{grid-template-columns:1fr;} h1.title{font-size:38px;} }
+</style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="wrap">
+      <div class="brand">WGI<small>NATIONAL ENGINEERING &amp; DESIGN</small></div>
+      <div class="tag">Publications &middot; Early Access</div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+
+      <!-- LEFT: copy + preview -->
+      <div>
+        <span class="eyebrow reveal d1"><b>&#9670;</b>&nbsp; Early Access &middot; By Invitation</span>
+        <h1 class="title reveal d2">Parking Structure<br>Cost Outlook <span class="yr">2026</span></h1>
+        <p class="deck reveal d2">
+          The report you&rsquo;ve used to budget before is back &mdash; and costs climbed again this year, pushed by steel and aluminum tariffs, a tighter labor market, and new fire-sprinkler and EV-charging mandates. <strong>Reserve your copy and the new index arrives the moment it releases on June 11</strong> &mdash; before the public announcement.
+        </p>
+
+        <div class="inside reveal d3">
+          <h3>What&rsquo;s inside the 2026 edition</h3>
+          <ul>
+            <li>The new national median construction cost &mdash; per space and per square foot &mdash; and how far it moved year over year</li>
+            <li>A 34-metro cost index, from the lowest-cost market to the highest, that you can localize to your project</li>
+            <li>The forces moving the numbers: tariffs, labor, fire-suppression and EV-charging requirements</li>
+            <li>The 2026 economic forecast &mdash; why university, hospital, and airport demand is holding the market up</li>
+            <li>Enhanced-feature and cost-reduction checklists to pressure-test your budget, plus soft-cost guidance</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT: form card -->
+      <div class="order-form reveal d4">
+        <div class="card">
+          <!-- =================================================================
+               REPLACE the markup inside #card-form with your HubSpot embed for
+               the Parking Cost Outlook 2026 EARLY-ACCESS form (already built in
+               HubSpot). Keep the plum top edge + heading above the embed.
+               The form below renders and is usable without JavaScript.
+          ================================================================== -->
+          <div id="card-form">
+            <div class="kicker">Reserve Your Copy</div>
+            <h2>Be first on June 11.</h2>
+            <p class="sub">Add yourself to the early-access list. It takes about fifteen seconds.</p>
+
+            <form id="ea-form" method="post" action="#" novalidate>
+              <div class="row2">
+                <div class="field">
+                  <label for="fn">First name</label>
+                  <input id="fn" name="firstname" type="text" autocomplete="given-name" required>
+                </div>
+                <div class="field">
+                  <label for="ln">Last name</label>
+                  <input id="ln" name="lastname" type="text" autocomplete="family-name" required>
+                </div>
+              </div>
+              <div class="field">
+                <label for="em">Work email</label>
+                <input id="em" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="co">Company</label>
+                <input id="co" name="company" type="text" autocomplete="organization">
+              </div>
+              <div class="field">
+                <label for="ti">Job title</label>
+                <input id="ti" name="jobtitle" type="text" autocomplete="organization-title">
+              </div>
+              <button class="btn" type="submit">Reserve My Copy &rarr;</button>
+            </form>
+            <p class="formnote">
+              We&rsquo;ll email your copy <b>the moment it releases on June 11</b>. No spam. <a href="https://www.wginc.com/privacy-policy/">Privacy</a>.
+            </p>
+          </div>
+
+          <!-- progressive-enhancement success state (JS optional) -->
+          <div class="success" id="ea-success">
+            <div class="kicker">You&rsquo;re on the list</div>
+            <h2>See you June 11.</h2>
+            <p>Your copy of the 2026 Parking Structure Cost Outlook will land in your inbox the moment it releases &mdash; ahead of the public announcement.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCKED INDEX REVEAL -->
+  <section class="reveal-band">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow"><b>&#9670;</b>&nbsp; The 2026 Index &middot; Locked</span>
+        <h2>The numbers moved again.<br>See exactly how far on June 11.</h2>
+        <p>Here&rsquo;s where the index landed in 2025. The 2026 column unlocks for early-access readers the moment the report releases &mdash; before the public sees it.</p>
+        <p class="fine">Figures shown are published 2025 medians for hard construction cost. 2026 values release June 11.</p>
+      </div>
+
+      <div class="index-card">
+        <div class="ic-head">
+          <div class="ic-title">Median Construction Cost &middot; Cost / Space</div>
+          <div class="ic-tag">Select Markets</div>
+        </div>
+        <table class="index">
+          <thead>
+            <tr><th>City</th><th>2025</th><th>2026</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Houston</td><td class="col25">$27,224</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+            <tr><td>Dallas</td><td class="col25">$26,847</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+            <tr><td>Chicago</td><td class="col25">$36,455</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+            <tr><td>New York</td><td class="col25">$39,658</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+            <tr><td>San Francisco</td><td class="col25">$40,380</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+            <tr class="median"><td>National Median</td><td class="col25">$31,400</td><td><span class="lock"><span class="blur" aria-hidden="true">$00,000</span></span></td></tr>
+          </tbody>
+        </table>
+        <div class="lock-badge">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="10" width="16" height="11" rx="2" fill="#4e2941"/>
+            <path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="#4e2941" stroke-width="2" fill="none"/>
+          </svg>
+          2026 figures unlock June 11 &mdash; reserve your copy above
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF BAND -->
+  <section class="band">
+    <div class="wrap">
+      <div class="stat">
+        <div class="n">9,000<span>+</span></div>
+        <div class="l">AEC and parking professionals have put this report to work</div>
+      </div>
+      <div class="stat">
+        <div class="n">34<span> metros</span></div>
+        <div class="l">Benchmarked city by city, from the lowest-cost market to the highest</div>
+      </div>
+      <div class="stat">
+        <div class="n">Since <span>2006</span></div>
+        <div class="l">Cost data normalized to a current national basis, year after year</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAIL STRIP -->
+  <section class="strip">
+    <div class="wrap">
+      <div>
+        <h2>Why people wait for this one.</h2>
+        <p>
+          Estimating a parking structure means defending a number to people who will hold you to it. The Cost Outlook gives you a current, defensible per-stall basis to start from &mdash; grounded in real project data, normalized with ENR&rsquo;s Building Cost Index and RS Means location factors, and broken out by market. That&rsquo;s why architects, developers, and owners come back for it every year.
+        </p>
+        <p style="margin-top:8px;font-size:15px;color:var(--muted);">
+          You&rsquo;re seeing this because you&rsquo;ve downloaded it before. Consider the early list our thank-you.
+        </p>
+      </div>
+      <div class="whenbox">
+        <h3>How early access works</h3>
+        <div class="whenrow"><div class="d">Now</div><div class="t">Reserve your copy with the form above.</div></div>
+        <div class="whenrow"><div class="d">June 11</div><div class="t">The 2026 edition releases. Your copy is emailed first, ahead of the public announcement.</div></div>
+        <div class="whenrow"><div class="d">After</div><div class="t">No further action needed. The link is yours to share with your team.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTS -->
+  <section class="experts">
+    <div class="wrap">
+      <h3>Questions on your market? Talk to the authors.</h3>
+      <div class="exgrid">
+        <div class="expert">
+          <img src="https://publications.wginc.com/hubfs/Dan%20Working/2026%20Parking%20Cost/Ray%20Smith.png" alt="Raymond Smith, PE">
+          <div>
+            <div class="nm">Raymond Smith, PE</div>
+            <div class="ti">VP, Parking Solutions</div>
+            <div class="em"><a href="mailto:Raymond.Smith@WGInc.com">Raymond.Smith@WGInc.com</a></div>
+          </div>
+        </div>
+        <div class="expert">
+          <img src="https://publications.wginc.com/hubfs/Dan%20Working/2026%20Parking%20Cost/Rob%20McConnell.png" alt="Rob McConnell, PE, SE, LEED GA">
+          <div>
+            <div class="nm">Rob McConnell, PE, SE, LEED GA</div>
+            <div class="ti">VP, Parking Solutions</div>
+            <div class="em"><a href="mailto:Rob.McConnell@WGInc.com">Rob.McConnell@WGInc.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      WGI &nbsp;&middot;&nbsp; ENR Top 500 Design Firm &nbsp;&middot;&nbsp; <a href="https://www.wginc.com">wginc.com</a> &nbsp;&middot;&nbsp; 800.FYI.PARK<br>
+      <span style="color:#9789a4;">&copy; 2026 WGI. Parking Solutions.</span>
+    </div>
+  </footer>
+
+  <script>
+    // Progressive enhancement only — the form is fully visible/usable without JS.
+    // In production, the HubSpot embed handles submission; this just shows a
+    // friendly inline confirmation if the static form is used during preview.
+    (function(){
+      var form = document.getElementById('ea-form');
+      if(!form) return;
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        var email = document.getElementById('em');
+        if(!email.value || email.value.indexOf('@') === -1){ email.focus(); return; }
+        document.getElementById('card-form').style.display = 'none';
+        document.getElementById('ea-success').style.display = 'block';
+      });
+    })();
+  </script>
+</body>
+</html>
