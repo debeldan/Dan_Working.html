@@ -330,7 +330,9 @@ HUBSPOT IMPLEMENTATION NOTES
    {{ contact.firstname }}        → optional, currently uses "Hi there,"
    {{ unsubscribe_link }}         → HubSpot system token (in footer)
    {{ manage_preferences_link }}  → HubSpot system token (in footer)
-   {{ site_settings.* }}          → HubSpot company-info tokens (in footer)
+   site_settings.* (company_name, company_street_address_1, company_city,
+                                  company_state)  → HubSpot company-info
+                                  tokens (already wired in the footer)
 
 6. Download button URL:
    https://publications.wginc.com/parking-cost-outlook-for-2026-thank-you
